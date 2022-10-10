@@ -1,0 +1,25 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "html2canvas": "^1.3.3",
+    "jquery": "^3.6.0",
+    "jszip": "^3.7.1",
+    "loader-utils": "^3.2.0",
+    "react": "^17.0.0",
+    "vue": "^3.2.37",
+    "webpack": "^5.1.3",
+    "webpack-dev-server": "^4.7.4",
+    "webpack-sources": "^3.2.3"
+  },
+  "scripts": {
+    "loader": "webpack --config webpack.loader.js",
+    "plugin": "webpack"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.1.0"
+  }
+}
